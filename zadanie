@@ -1,0 +1,16 @@
+<?php
+$numer_z_dziennika = 1; // Wpisz swój numer z dziennika
+$a = $numer_z_dziennika;
+ 
+echo $a . "<br>";
+echo -$a . "<br>";
+echo ($a + 3) . "<br>";
+echo ($a - 5) . "<br>";
+echo ($a * 2) . "<br>";
+echo ($a / 5) . "<br>";
+echo ($a % 2) . "<br>";
+ 
+echo ($a ^ 3) . "<br>";
+ 
+echo "Wartość zmiennej \$a wynosi: " . $a . " i już się nie zmieni.<br>";
+?>
